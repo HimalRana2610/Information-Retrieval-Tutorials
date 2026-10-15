@@ -1,0 +1,32 @@
+Objective
+To understand and implement basic text-processing techniques used in Natural Language Processing (NLP), including tokenization, stemming, lemmatization, and stop-word removal.Problem Statement
+A college receives student feedback in the form of text comments. Before analyzing the feedback, the text must be cleaned and converted into a suitable format for NLP processing.
+Consider the following feedback:
+
+Perform the following text-processing operations on this sentence:1. Tokenization
+Break the given sentence into individual words/tokens.
+
+The, students, are, studying, different, subjects, ...2. Stop Words Removal
+Identify and remove common words that generally do not carry significant meaning for text analysis.
+Examples of stop words include:
+the, are, and, they, their, the, very
+Display the text after removing stop words.3. Stemming
+Apply stemming to the text and observe how words are reduced to their root/stem form.
+For example:
+studying → studi
+studies → studi
+teaching → teach
+teachers → teacher
+Display the resulting stemmed words.4. Lemmatization
+Apply lemmatization to the same text and observe the meaningful dictionary form of each word.
+For example:
+studying → study
+studies → study
+teachers → teacher
+teaching → teach
+Display the resulting lemmatized words.5. Compare Stemming and Lemmatization
+Answer the following questions:What is the difference between stemming and lemmatization?Which technique produces more meaningful English words?Why are stop words removed during NLP preprocessing?What is the purpose of tokenization?Give two real-world applications where these text-processing techniques can be used.Practical Task
+Write a Python program using an NLP library such as or to perform all four operations on the given student-feedback sentence.Input
+"The students are studying different subjects and they are enjoying their studies. The teachers are teaching the subjects very effectively."Required Output
+Your program should display:Original textTokensText after stop-word removalStemmed wordsLemmatized wordsA short comparison between stemming and lemmatizationConclusion
+Text processing is an important first step in NLP. Tokenization divides text into smaller units, stop-word removal eliminates frequently occurring words with limited analytical value, stemming reduces words to their stems, and lemmatization converts words into meaningful dictionary forms. These techniques help prepare textual data for applications such as sentiment analysis, search engines, text classification, and chatbots.
