@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+nltk
+pandas
+streamlit
+reportlab
+pillow
